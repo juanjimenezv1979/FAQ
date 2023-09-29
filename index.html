@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PQRs - Preguntas Frecuentes</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logonegro.png" alt="Logo">
+        </div>
+        <div class="language-switch">
+            <label for="language-toggle">Cambia el Idioma</label>
+            <input type="checkbox" id="language-toggle">
+        </div>
+        <a href="#" class="back-button"><img class = "animated-image" src="icons8-flecha-48.png" alt="Volver"></a>
+    </header>
+    <main>
+        <section class="pqrs">
+            <h1 id="pqrs-title"> <strong>Preguntas Frecuentes</strong></h1>
+            <div class="pqrs-content">
+                <div class="pqrs-question">
+                    <h2>Pregunta 1</h2>
+                    <button class="pqrs-button">Mostrar Respuesta</button>
+                    <div class="pqrs-answer">
+                        Respuesta a la Pregunta 1.
+                    </div>
+                </div>
+                <div class="pqrs-question">
+                    <h2>Pregunta 2</h2>
+                    <button class="pqrs-button">Mostrar Respuesta</button>
+                    <div class="pqrs-answer">
+                        Respuesta a la Pregunta 2.
+                    </div>
+                </div>
+                <!-- Agrega más preguntas y respuestas aquí -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+
+            <div class="center-logo">
+                <img src="logoblanco.png" alt="Logo">
+            </div>
+            <div class="left-links"> <h5>LEGAL</h5>
+                <ul>
+                  <li><a href="#">Términos y condiciones</a></li>
+                  <li><a href="#">Política de privacidad</a></li>
+                </ul>
+              </div>
+            <div class="footer_right"> <h5>INFORMACIÓN</h5>
+                <ul>
+                  <li><a href="#">Sobre nosotros</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+              <div class="social_icons"> <h5>SIGUENOS</h5>
+          <a href="#" class="icon-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABPUlEQVR4nO2UzU7DMAzHe+LCxwOhoQISSxAMTjwL0sQNTcDbTNuufDwMo5o2/6vauxe5HQdY0o+U4yxZiuwkP8d2HEU7CRHDuDVCH1awtoK8RteW6d1mGDS7XPDc4NLcrTSqjTzk4n5Gx5bRK9e4roi+SEv7yBk9wzgp1/TmBViBeJ4+toz4Ikn2VY2kp0Zo4tprBFwFcERH9xUpHbrOtADQWO13eb5nBS+W8WUZc20EtZVnaBoOYMS+zlKb+vqSngUD4sXioLBr5H8BjER9N8vl4X8A5g7AZ+FbrY6CAdotFSl6Ut+lpOcdADT5KXIB0ZdsFRmzDl0ETcXQt98wHtq2qe+jTbVbtCaqm7TM2n80nYrBgw6bF9OrH5Bh0BmQ4coLKNNEo3AAPUZNREeuTkV/TX6paFpqI99J5JFvTv1liw8djKQAAAAASUVORK5CYII="></a>
+          <a href="#" class="icon-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADPklEQVR4nO2ZT0hUQRzHH9QtK6I/p9bEf5tmbhooEWSp+2Ys10PSoVqhAg8d/LNFGBRUdOtihwrpLlTYtUPRMTpkmqUZEV0K7e3u/PTNeKhEJuZtJvo2ffPmvV0P7ws/WNjZN9/P/PnNvN9qWqBAgQIJ6XMQQYxcwgyeIErGECOAKfkt4u/nd+I7zNIJ0VZbD2pLpTbrjFxGDD5iBlwmEIMJAdxgGAU5N97A+UYxkpgRImvcHiSN2UyveGZOzOs0tRdRMqpufMWMUDKCzFTYV/PIhDbMgHltHi8tK4pNiPljfg46MCXzfpnHi5HpI+79yOfCPFuC0E1o9cR8s2mWWVOraEpPGrxxfJIffTXMG0fHeePEJ64bU6v9hon9pmReZAalDUsJPzT4jIejvTy0vZWHtmBbHH76YrXfv1XKTplU6dI8JHlV/GZW08sAhp6vtbF7XJmPTk9vQoyk3ALUXL2/pvmQAwBxTogDUxpAnLBuzTd/+coLd7R6BABcnNjSAG6uB4tR1z+Y1WzR7pO89voArx8Y+hdNk58dAMCE3OjPQUQl41R13MoKcOTla9fPjDJSlZPlIyLc1G0zX1bf6fp5WHYzZ6697jsrreu0Aew/d1sNgMIjxwCIwnuVzkpqL9gADvT2KwKQUYkZEFdcbwEiibuKS4ikJGaA/Fp3AJT89AXg4I2HvCjUviwKtx23ARTujNnaFYXa+bE3Y94DyCyhmr57jg6srLG1hevJH34sIeebWAWguDLu1yZ2nkZVACpiV3xKo5nyiO8AEYmNjRh0y8xAtcyLSvT7t2VREjlvM1t98Y6tHUoZEgBkn2MAC4LCB6cP9zuNItnLnOwy8hsAs3Qipy803gKQtOvqnaiY5R8AujTFl/qRvAFQMnyK8w2aivTZ2VLEwMwDAFMuqyxKlPtkClvKAJTMIxNOeGL+HwSDuFMIJQBq9XFW80Oi3OekSucWADEwPR/5lWoxk+WiYuY5ACXDooyp5UJWdmLQ879rtwwAypw1XcrZxhWIYRRYJzaFcWkA66qSTuTlL6ZsEpcta1YoPK6I9c0Uh88s7NnVxkUUl59eqLn2YEpciTNt0pX59hsoUCBtfegPGxzsH4pzKtQAAAAASUVORK5CYII="></a>
+          <a href="#" class="icon-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC0ElEQVR4nO2Y34tNURTHD4oHP0JJPHgTKb/S5EGRMXPWOncyhPvgR/LrES/kSeZBkUeRRin+AKXEG8mbIpEoD0TKzDhnrXPPWucOkXu07wwNmdu959e87E/tug93r72+a3/P/uU4FovFYrFY2gMifwUKXQblNyBcB+UIhJ6j0nmIvyz5Xx9UXuNkwYvJG0iS6VlimP4mSRT6gcrJJE1B6Jj5f7/vz3Ul2I1Cj1DoSuqBt4yMzEHlmqlaFgGgfL1F4slfTegZCn0f+82f3VptYeqBMabK78CgfK2aJDM6jeEq72s7eZ3YKKjE4bq+Wm0BargtlQBX+fjEoKB0t6OKJMk0UHrXcfLStNptUHqMSuQpr04lAJRP/hschD+5GvS20x/rfle66vO4EP4KEfenSr6ZQMTbJwsOSndc8Ve26u9G4eG0yYOS7wltcrJgVgOzOrSY6gYq32sKTZJZ7cxgBwL2OnlgVqD2BuTI+BZjOu1p2N0TRctR+UBqARLuykVA79DQbFB+m8nLaVocuNmrr7zfi/kgxuF6FHpRpgAv7cozmYdBeLQ0AUINM/OZBZiNpHTraPN7eu3kBSg/mQIRg7kJcOu1DX/OJmW1mCpOnqBStTwRFFSTZGauApoi6n4XCD0twf8XnSLwJNwJEfeh0k0Q+lZI8sKjPXV/aSECUOhqCRa6VEjyYwJkEQoPF5a88EcMgnlOkVSiYCMocf7WoZ/tHtEzYw5pIPQw5+qfc8pmbH/gARB6kLH6t8zNrXQBZlCMgiOgFGZJvprinp0Jc3GBKDwEQi/TW4YaIHy20Mq7Ma81NqkIb0YJ9oDQGRC+D8qSzfP03tVwq1M0O8JwPipdMC9oOX2sNVP1XI7JndCtw4tdpVMo/CqlXcxF6IQpiDPVoASrUIKjoHzDHLPH33zMy13D7A8g9KH5HKg8aJ4Je0Z52VTnbLFYLBaLxSmQX5F7ZqMbV8YRAAAAAElFTkSuQmCC"></a>
+        </div>
+            <p class="animated-text">&copy; 2023 ByChat Todos los derechos reservados</p>
+
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
